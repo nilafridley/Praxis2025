@@ -1,0 +1,95 @@
+<opt:EarthObservation xmlns:eop="http://www.opengis.net/eop/2.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:opt="http://www.opengis.net/opt/2.1" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="GE1_OPER_GIS_4B__2A_20200731T101415_N46-237_E013-600_0001_1">
+  <om:phenomenonTime>
+    <gml:TimePeriod gml:id="GE1_OPER_GIS_4B__2A_20200731T101415_N46-237_E013-600_0001_2">
+      <gml:beginPosition>2020-07-31T10:14:15.288Z</gml:beginPosition>
+      <gml:endPosition>2020-07-31T10:14:15.288Z</gml:endPosition>
+    </gml:TimePeriod>
+  </om:phenomenonTime>
+  <om:resultTime>
+    <gml:TimeInstant gml:id="GE1_OPER_GIS_4B__2A_20200731T101415_N46-237_E013-600_0001_3">
+      <gml:timePosition>2020-07-31T10:14:15.288Z</gml:timePosition>
+    </gml:TimeInstant>
+  </om:resultTime>
+  <om:procedure>
+    <eop:EarthObservationEquipment gml:id="GE1_OPER_GIS_4B__2A_20200731T101415_N46-237_E013-600_0001_4">
+      <eop:platform>
+        <eop:Platform>
+          <eop:shortName>GeoEye</eop:shortName>
+          <eop:serialIdentifier>1</eop:serialIdentifier>
+        </eop:Platform>
+      </eop:platform>
+      <eop:instrument>
+        <eop:Instrument>
+          <eop:shortName>GIS</eop:shortName>
+        </eop:Instrument>
+      </eop:instrument>
+      <eop:sensor>
+        <eop:Sensor>
+          <eop:sensorType>OPTICAL</eop:sensorType>
+          <eop:operationalMode codeSpace="urn:esa:eop:GeoEye:GIS:operationalMode">PM</eop:operationalMode>
+          <eop:resolution uom="m">2.0</eop:resolution>
+        </eop:Sensor>
+      </eop:sensor>
+      <eop:acquisitionParameters>
+        <eop:Acquisition>
+          <eop:orbitNumber>0</eop:orbitNumber>
+          <eop:wrsLongitudeGrid codeSpace="urn:esa:eop:GeoEye:Row">E013</eop:wrsLongitudeGrid>
+          <eop:wrsLatitudeGrid codeSpace="urn:esa:eop:GeoEye:Path">N46</eop:wrsLatitudeGrid>
+          <eop:illuminationAzimuthAngle uom="deg">152.1</eop:illuminationAzimuthAngle>
+          <eop:illuminationElevationAngle uom="deg">59.6</eop:illuminationElevationAngle>
+        </eop:Acquisition>
+      </eop:acquisitionParameters>
+    </eop:EarthObservationEquipment>
+  </om:procedure>
+  <om:observedProperty nilReason="inapplicable" xsi:nil="true"/>
+  <om:featureOfInterest>
+    <eop:Footprint gml:id="GE1_OPER_GIS_4B__2A_20200731T101415_N46-237_E013-600_0001_5">
+      <eop:multiExtentOf>
+        <gml:MultiSurface gml:id="GE1_OPER_GIS_4B__2A_20200731T101415_N46-237_E013-600_0001_6">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="GE1_OPER_GIS_4B__2A_20200731T101415_N46-237_E013-600_0001_7">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>46.24821344 13.57942550 46.22581041 13.58000361 46.22631009 13.62081283 46.24871351 13.62025132 46.24821344 13.57942550</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </eop:multiExtentOf>
+      <eop:centerOf>
+        <gml:Point gml:id="GE1_OPER_GIS_4B__2A_20200731T101415_N46-237_E013-600_0001_8">
+          <gml:pos>46.2372636786 13.6001232802</gml:pos>
+        </gml:Point>
+      </eop:centerOf>
+    </eop:Footprint>
+  </om:featureOfInterest>
+  <om:result>
+    <opt:EarthObservationResult gml:id="GE1_OPER_GIS_4B__2A_20200731T101415_N46-237_E013-600_0001_9">
+      <eop:product>
+        <eop:ProductInformation>
+          <eop:fileName>
+            <ows:ServiceReference xlink:href="GE1_OPER_GIS_4B__2A_20200731T101415_N46-237_E013-600_0001_v0101.SIP.ZIP">
+              <ows:RequestMessage/>
+            </ows:ServiceReference>
+          </eop:fileName>
+          <eop:size uom="bytes">4554246</eop:size>
+        </eop:ProductInformation>
+      </eop:product>
+      <opt:cloudCoverPercentage uom="%">0</opt:cloudCoverPercentage>
+    </opt:EarthObservationResult>
+  </om:result>
+  <eop:metaDataProperty>
+    <eop:EarthObservationMetaData>
+      <eop:identifier>GE1_OPER_GIS_4B__2A_20200731T101415_N46-237_E013-600_0001</eop:identifier>
+      <eop:acquisitionType>NOMINAL</eop:acquisitionType>
+      <eop:productType>GIS_4B__2A</eop:productType>
+      <eop:status>ARCHIVED</eop:status>
+      <eop:processing>
+        <eop:ProcessingInformation>
+          <eop:processingLevel>other: LV2A</eop:processingLevel>
+        </eop:ProcessingInformation>
+      </eop:processing>
+    </eop:EarthObservationMetaData>
+  </eop:metaDataProperty>
+</opt:EarthObservation>
