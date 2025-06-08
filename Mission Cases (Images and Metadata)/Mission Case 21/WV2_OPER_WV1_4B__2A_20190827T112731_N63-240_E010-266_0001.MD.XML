@@ -1,0 +1,95 @@
+<opt:EarthObservation xmlns:eop="http://www.opengis.net/eop/2.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:om="http://www.opengis.net/om/2.0" xmlns:opt="http://www.opengis.net/opt/2.1" xmlns:ows="http://www.opengis.net/ows/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="WV2_OPER_WV1_4B__2A_20190827T112731_N63-240_E010-266_0001_1">
+  <om:phenomenonTime>
+    <gml:TimePeriod gml:id="WV2_OPER_WV1_4B__2A_20190827T112731_N63-240_E010-266_0001_2">
+      <gml:beginPosition>2019-08-27T11:27:31.967Z</gml:beginPosition>
+      <gml:endPosition>2019-08-27T11:27:31.967Z</gml:endPosition>
+    </gml:TimePeriod>
+  </om:phenomenonTime>
+  <om:resultTime>
+    <gml:TimeInstant gml:id="WV2_OPER_WV1_4B__2A_20190827T112731_N63-240_E010-266_0001_3">
+      <gml:timePosition>2019-08-27T11:27:31.967Z</gml:timePosition>
+    </gml:TimeInstant>
+  </om:resultTime>
+  <om:procedure>
+    <eop:EarthObservationEquipment gml:id="WV2_OPER_WV1_4B__2A_20190827T112731_N63-240_E010-266_0001_4">
+      <eop:platform>
+        <eop:Platform>
+          <eop:shortName>WorldView</eop:shortName>
+          <eop:serialIdentifier>2</eop:serialIdentifier>
+        </eop:Platform>
+      </eop:platform>
+      <eop:instrument>
+        <eop:Instrument>
+          <eop:shortName>WV110</eop:shortName>
+        </eop:Instrument>
+      </eop:instrument>
+      <eop:sensor>
+        <eop:Sensor>
+          <eop:sensorType>OPTICAL</eop:sensorType>
+          <eop:operationalMode codeSpace="urn:esa:eop:WorldView:WV110:operationalMode">PM</eop:operationalMode>
+          <eop:resolution uom="m">2.0</eop:resolution>
+        </eop:Sensor>
+      </eop:sensor>
+      <eop:acquisitionParameters>
+        <eop:Acquisition>
+          <eop:orbitNumber>0</eop:orbitNumber>
+          <eop:wrsLongitudeGrid codeSpace="urn:esa:eop:WorldView:Row">E010</eop:wrsLongitudeGrid>
+          <eop:wrsLatitudeGrid codeSpace="urn:esa:eop:WorldView:Path">N63</eop:wrsLatitudeGrid>
+          <eop:illuminationAzimuthAngle uom="deg">182.2</eop:illuminationAzimuthAngle>
+          <eop:illuminationElevationAngle uom="deg">37.0</eop:illuminationElevationAngle>
+        </eop:Acquisition>
+      </eop:acquisitionParameters>
+    </eop:EarthObservationEquipment>
+  </om:procedure>
+  <om:observedProperty nilReason="inapplicable" xsi:nil="true"/>
+  <om:featureOfInterest>
+    <eop:Footprint gml:id="WV2_OPER_WV1_4B__2A_20190827T112731_N63-240_E010-266_0001_5">
+      <eop:multiExtentOf>
+        <gml:MultiSurface gml:id="WV2_OPER_WV1_4B__2A_20190827T112731_N63-240_E010-266_0001_6">
+          <gml:surfaceMember>
+            <gml:Polygon gml:id="WV2_OPER_WV1_4B__2A_20190827T112731_N63-240_E010-266_0001_7">
+              <gml:exterior>
+                <gml:LinearRing>
+                  <gml:posList>63.27400611 10.23262804 63.20775018 10.22980789 63.20712589 10.29997975 63.27338003 10.30296071 63.27400611 10.23262804</gml:posList>
+                </gml:LinearRing>
+              </gml:exterior>
+            </gml:Polygon>
+          </gml:surfaceMember>
+        </gml:MultiSurface>
+      </eop:multiExtentOf>
+      <eop:centerOf>
+        <gml:Point gml:id="WV2_OPER_WV1_4B__2A_20190827T112731_N63-240_E010-266_0001_8">
+          <gml:pos>63.2405698886 10.2663428146</gml:pos>
+        </gml:Point>
+      </eop:centerOf>
+    </eop:Footprint>
+  </om:featureOfInterest>
+  <om:result>
+    <opt:EarthObservationResult gml:id="WV2_OPER_WV1_4B__2A_20190827T112731_N63-240_E010-266_0001_9">
+      <eop:product>
+        <eop:ProductInformation>
+          <eop:fileName>
+            <ows:ServiceReference xlink:href="WV2_OPER_WV1_4B__2A_20190827T112731_N63-240_E010-266_0001_v0100.SIP.ZIP">
+              <ows:RequestMessage/>
+            </ows:ServiceReference>
+          </eop:fileName>
+          <eop:size uom="bytes">27426868</eop:size>
+        </eop:ProductInformation>
+      </eop:product>
+      <opt:cloudCoverPercentage uom="%">0</opt:cloudCoverPercentage>
+    </opt:EarthObservationResult>
+  </om:result>
+  <eop:metaDataProperty>
+    <eop:EarthObservationMetaData>
+      <eop:identifier>WV2_OPER_WV1_4B__2A_20190827T112731_N63-240_E010-266_0001</eop:identifier>
+      <eop:acquisitionType>NOMINAL</eop:acquisitionType>
+      <eop:productType>WV1_4B__2A</eop:productType>
+      <eop:status>ARCHIVED</eop:status>
+      <eop:processing>
+        <eop:ProcessingInformation>
+          <eop:processingLevel>other: LV2A</eop:processingLevel>
+        </eop:ProcessingInformation>
+      </eop:processing>
+    </eop:EarthObservationMetaData>
+  </eop:metaDataProperty>
+</opt:EarthObservation>
